@@ -1,4 +1,4 @@
-## **What is Git?**
+## <h1>What is Git?</h1>
 
 **Git** is a **version control system** used to track changes in source code.
 A **command line tool** installed locally on a computer.
