@@ -1,9 +1,0 @@
-## <h1>What is Git?</h1>
-
-**Git** is a **version control system** used to track changes in source code.
-A **command line tool** installed locally on a computer.
-
-### ✅ Key Features:
-- **Tracks changes** in files over time (version history)-Manage different versions of your project.
-- **revert to earlier versions** of your code-Undo mistakes by revisiting previous versions.
-- Supports **branching and merging** (work on features independently)-Collaborate without overwriting each other’s work.
