@@ -71,5 +71,42 @@ ssh-keygen	Command to generate a new SSH key pair (public/private).
 8. **ls -a**
    Lists all files in a directory, including hidden ones starting with a dot.
 
+## <h1>Git Status</h1>
+- Displays the state of the code.
+- Four types of status:
+  1. Staged/Added (File is ready to be committed).
+  2. Modified/Not staged (Modified/Changed files that haven't been added yet.)
+  3. Untracked (New files that Git isn't tracking yet)
+  4. Unmodified (Unchanged/Committed)- Up to date.
+- Command
+  **git status**
+ 
+## <h1>Add and Commit</h1>
+- In Git, add and commit are two essential steps in saving your changes to the repository.
+  1. ADD (Engagement/Stage)
+     - Adds new or changed files in your working directory to the git staging area.
+     - Takes your modified or new files and adds them to the staging area.
+     - Git does not save the changes to history yet — that happens when you commit.
+     - Commands:
+       **git add <filename>**        # Add a new file
+       **git add .**                 # Add all changes in the current directory
+       **git add -A**                # Add all changes (including deletions)
+
+  2. COMMIT (wedding)
+     - It is the record of change - This command records your staged changes to the repository’s history.
+     - Saves a snapshot of your project at that point in time.
+     - Includes only the changes that were staged using git add.
+     - Command:
+       **git commit -m "Your commit message here"**
+
+## <h1>PUSH Command</h1>
+- Upload **local repo content**(git local laptop) to **remote repo(github)**.
+- Command:
+  **git push <remote> <branch>**
+  **git push origin main**
+  origin = the default name for your remote repo in your local machine.
+  main = the branch you're pushing to.
+
+
 
 
