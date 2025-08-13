@@ -107,6 +107,24 @@ ssh-keygen	Command to generate a new SSH key pair (public/private).
   origin = the default name for your remote repo in your local machine.
   main = the branch you're pushing to.
 
+## <h1>INIT Command</h1>
+-The init command in Git is used to initialize a new Git repository. 
+-It creates the .git directory in your project folder, allowing you to start tracking your files using Git version control.
+-Command:
+  **git init**
+  Initializes a new local Git repository.
+  Creates a hidden .git folder in your project directory, which stores all the version history and configuration.
+  Marks the folder as a Git-managed project.
+-Steps:
+    mkdir my-project
+    cd my-project
+    git init    Output:Initialized empty Git repository in /path/to/my-project/.git/
+    git add .                  # Stage all files for commit
+    git commit -m "Initial commit"  # Commit the files
+    git branch -M main         # (Optional) Rename branch to 'main'
+    git remote add origin https://github.com/username/repo.git  # Link to GitHub repo
+    git push -u origin main  
+
 
 
 
