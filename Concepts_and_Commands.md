@@ -116,14 +116,14 @@ ssh-keygen	Command to generate a new SSH key pair (public/private).
   Creates a hidden .git folder in your project directory, which stores all the version history and configuration.
   Marks the folder as a Git-managed project.
 - Steps:
-    mkdir my-project
-    cd my-project
-    git init    Output:Initialized empty Git repository in /path/to/my-project/.git/
-    git add .                  # Stage all files for commit
-    git commit -m "Initial commit"  # Commit the files
-    git branch -M main         # (Optional) Rename branch to 'main'
-    git remote add origin https://github.com/username/repo.git  # Link to GitHub repo
-    git push -u origin main  
+   1. mkdir my-project
+   2. cd my-project
+   3. git init    Output:Initialized empty Git repository in /path/to/my-project/.git/
+   4. git add .                  # Stage all files for commit
+   5. git commit -m "Initial commit"  # Commit the files
+   6. git branch -M main         # (Optional) Rename branch to 'main'
+   7. git remote add origin https://github.com/username/repo.git  # Link to GitHub repo
+   8. git push -u origin main  
 
 
 
