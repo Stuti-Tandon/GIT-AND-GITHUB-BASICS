@@ -126,18 +126,6 @@ ssh-keygen	Command to generate a new SSH key pair (public/private).
    8. git push -u origin main
  
 
-Git Basics – Concepts + Commands
-1. Repository
-
-A Git repository is a workspace where project files, history, and configuration are stored. It can be local on your machine or remote (e.g., on GitHub, GitLab).
-
-a. Initialize a repository locally
-
-git init
-
-
-b. Clone an existing repository from remote
-
 git clone <remote-url>
 
 
