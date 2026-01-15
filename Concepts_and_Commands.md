@@ -123,7 +123,22 @@ ssh-keygen	Command to generate a new SSH key pair (public/private).
    5. git commit -m "Initial commit"  # Commit the files
    6. git branch -M main         # (Optional) Rename branch to 'main'
    7. git remote add origin https://github.com/username/repo.git  # Link to GitHub repo
-   8. git push -u origin main  
+   8. git push -u origin main
+ 
+
+Git Basics – Concepts + Commands
+1. Repository
+
+A Git repository is a workspace where project files, history, and configuration are stored. It can be local on your machine or remote (e.g., on GitHub, GitLab).
+
+a. Initialize a repository locally
+
+git init
+
+
+b. Clone an existing repository from remote
+
+git clone <remote-url>
 
 
 
